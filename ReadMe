@@ -1,0 +1,16 @@
+A Simple Website where user can signup if not registered already or can login.
+User can search for all associated manual pages of a command searched by the user. 
+
+---------------------------------main.go -------------------
+* main.go contain program in go lang which:-
+1)parse template pages      modules used = html/template 
+2)Handlers which operates on the pages 
+3)Database operations like  modules used = github.com/lib/pq
+  3.1) Checking userdetails in our database   
+  3.2)inserting user details in our database 
+4) using os/exec
+  to run man -a command and rendering its output on webpage 
+
+* template contain 3 html pages used for the website .
+* go.sum contains list of module's dependencies 
+* go.mod contains module's properties and dependencies.
