@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Login/Signin Webpage</title>
+</head>
+<style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: pink;
+        }
+	.centered-div {
+            width: 80%;
+            max-width: 600px;
+            padding: 20px;
+            background: linear-gradient(45deg, #ffcc00, #ff6699, #66ccff);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            animation: colorChange 10s infinite;
+        }
+
+       
+    </style>
+
+
+<body>
+	<div>
+	<h1> Welcome to the Manual {{.Username}}!</h1>
+        <form action="/file" method="POST">
+		
+		<label for="text">Search for Man page of  </label>
+		<input type="text" id="text" name="text" required>
+		<button type="submit">Submit</button> </br>
+    </form>
+    </div>
+</body>
+</html>
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>User Login/Signin Webpage</title>
+	</head>
+<style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: pink;
+        }
+	.centered-div {
+            width: 80%;
+            max-width: 600px;
+            padding: 20px;
+            background: linear-gradient(45deg, #ffcc00, #ff6699, #66ccff);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            animation: colorChange 10s infinite;
+        }
+
+       
+    </style>
+
+	<body>
+		<div>
+			<h1> Welcome to the Linux Manual !</h1>
+			<form action="/" method="POST">
+
+				<label for="rollno">User Id</label>
+				<input type="text" id="rollno" name="rollno" required></br>
+
+				<label for="name">User Name</label>
+				<input type="text" id="name" name="name" required></br>
+
+				<button type="submit">Submit</button>
+			</form>
+    				<p> <a href="/signup">Sign up here</a></p>
+		</div>
+	</body>
+</html>
+
+
