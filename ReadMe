@@ -14,3 +14,9 @@ User can search for all associated manual pages of a command searched by the use
 * template contain 3 html pages used for the website .
 * go.sum contains list of module's dependencies 
 * go.mod contains module's properties and dependencies.
+
+On terminal run main.go using command:-
+$ go run main.go
+
+Open browser search for :
+http://localhost:8080/
