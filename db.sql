@@ -6,3 +6,4 @@ insert into users values ('1','snehal','snehal@gmail.com','9988776655');
 insert into users values ('2','sahil','sahil@gmail.com','9988446655');
 insert into users values ('3','deepak','deepak@gmail.com','9933776655');
 insert into users values ('4','kartik','kartik@gmail.com','9922776655');
+insert into users values ('5','bhushan','bhushan@gmail.com','9223416772');
